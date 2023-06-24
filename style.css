@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    height: 100vh;
+    margin: 3rem;
+    padding: 2px;
+ 
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.day{
+    display: grid;
+   grid-template-columns: repeat(7,1fr);
+   font-size: xx-large;
+}
+.box{
+    width: 100%;
+    /* border: 2px solid black; */
+}
+ h1{
+    font-size: 5rem; 
+    color: green;
+ }
+   .my-div{
+    /* overflow: hidden; */
+    border: 2px solid black;
+    padding: 25px 15px;
+   }
